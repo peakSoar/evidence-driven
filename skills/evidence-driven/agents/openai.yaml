@@ -1,0 +1,4 @@
+interface:
+  display_name: "证据驱动工程 Harness"
+  short_description: "初始化、执行和审计可跨会话恢复的仓库级 AI 工程流程"
+  default_prompt: "使用 $evidence-driven 为当前仓库初始化一套证据驱动的 AI 工程 Harness。"
