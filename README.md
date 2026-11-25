@@ -44,6 +44,7 @@ evidence-driven/
     ├── SKILL.md                       agent 执行规则
     ├── agents/openai.yaml             展示与调用元数据
     ├── scripts/scaffold_harness.py    完整结构生成器
+    ├── scripts/generate_headings.py   章节骨架生成器（不生成正文）
     ├── assets/harness-template/       项目工作流模板
     └── assets/examples/               填写样例，只作参照，不写入目标仓库
 ```
@@ -78,6 +79,8 @@ evidence-driven/
 | owner（责任主体） | 哪个模块唯一拥有这条规则或状态？ |
 
 按“已确认问题 → 目标不变量 → 候选方案 → 选择理由 → 责任阶段 → 退出条件”制定计划。不要用功能清单代替问题证据，也不要为了迎合旧文档修改正确的代码。
+
+阶段合同在“关键设计与责任边界”集中说明方案、取舍、责任模块和接口或状态变化，可按业务问题增加子标题。上述四角色用于调查分析；责任链表或流程图按需补充，不作为每阶段必填表格，也不重复设计正文。
 
 ### 3. 实施与验证
 
